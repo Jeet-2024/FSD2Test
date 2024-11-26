@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.blg{
+  height: 20vh;
+  width: 100vw;
+  background-color: bisque;
+  color: green;
+  text-align: center;
+}
+
+.main{
+  height: 20vh;
+  width: 100vw;
+  background-color: bisque;
+  color: green;
+  text-align: center;
+}
+
+.log{
+display: flex;
+flex-direction: column;
+height: 100vh;
+width: 100vw;
+/* margin: auto; */
+
+justify-items:center ;
+justify-content: center;
+align-items: center;
+text-decoration-style: none;
+width: 100vw;
+list-style-type: none;
+flex-grow: 1;
+background-color: rgb(19, 19, 19);
+color: white;
+  
+}
+.log>h1{
+  font-size: 40px;
+}
+
+.log>h4{
+  color:chocolate;
+}
+#submit{
+  background-color: rgb(168, 168, 179);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#uname{
+  /* margin-left: auto; */
+  font-size: medium;
+  height: 30px;
+  width: 400px;
+  border-radius: 8px;
+  /* align-self:self-start; */
+}
+
+.child{
+  background-color: orange;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  align-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+Link{
+  text-decoration: none;
+}
